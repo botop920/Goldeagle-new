@@ -41,7 +41,7 @@ with open('data.txt', 'r') as file:
 
 # Fixed values
 available_taps = 1000
-count = 300
+count = 1000
 
 # Loop to send requests for each token, and repeat the process after completing all accounts
 while True:
@@ -49,6 +49,7 @@ while True:
         response = send_request(available_taps, count, token)
         print(f"Response for token {token}: {response}")
     
-    # Wait for 5 minutes before repeating the process for all accounts
-    print("Waiting for 5 minutes before repeating...")
-    time.sleep(5 * 60)  # Wait for 5 minutes before starting the next iteration
+    # Wait for 16 minutes before repeating the process for all accounts
+    print("Waiting for 16 minutes before repeating...")
+    print("THIS IS BOT BY CROWNPRINCE  +2348077643940 ")
+    time.sleep(16 * 60)  # Wait for 5 minutes before starting the next iteration
