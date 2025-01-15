@@ -35,7 +35,7 @@ def send_tap_request(auth_token):
 
     data = {
         "available_taps": 1000,  
-        "count": random.randint(270, 310), # Number of taps as random number
+        "count": random.randint(998,998), # Number of taps as random number
         "timestamp": int(time.time()),  # Generate current timestamp
         "salt": "83fded5f-fac6-4882-82a6-26723fe8071c"
     }
@@ -74,5 +74,5 @@ while True:
             send_claim_request(token)
             time.sleep(2)  # Small delay between requests
 
-    print("Waiting 5 minutes before the next cycle...")
-    time.sleep(300)  # Wait for 5 minutes before restarting
+    print("Waiting 17 minutes before the next cycle...")
+    time.sleep(1000)  # Wait for 5 minutes before restarting
