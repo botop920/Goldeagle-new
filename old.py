@@ -34,7 +34,7 @@ def send_request(auth_token):
 
     data = {
         "available_taps": 1000,
-        "count": random.randint(10,10),# Number of taps
+        "count": random.randint(30,30),# Number of taps
         "timestamp": int(time.time()),  # Generate current timestamp
         "salt": "83fded5f-fac6-4882-82a6-26723fe8071c"
     }
